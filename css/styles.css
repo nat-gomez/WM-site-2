@@ -1,0 +1,59 @@
+body {
+  background: #fff;
+  padding: 20px;
+  font-family: Arial;
+}
+
+#banner-message {
+  background: #58DB77;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 300px;
+}
+
+button {
+  background: #3A914F;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
+
+#banner-message.alt {
+  background: #3A914F;
+  color: #fff;
+  margin-top: 40px;
+  width: 200px;
+}
+
+#banner-message.alt button {
+  background: #58DB77;
+  color: #000;
+}
+
+#guiding-principles-info {
+  border: 3px solid;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.guiding-principles {
+  padding: 15px;
+  margin: 5px;
+  background: #58DB77;
+  cursor: pointer;
+}
+
+.guiding-principles:hover {
+  background: #3A914F;
+}
+
+.my-photo {
+  width: 300px;
+  border-radius: 500px;
+}
